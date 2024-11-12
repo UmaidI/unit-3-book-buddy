@@ -13,7 +13,7 @@ body{
 section{
   border: 2px solid black;
   cursor: pointer;
-  
+  border-radius: 10%;
 }
 nav{
   display: flex;
