@@ -15,6 +15,7 @@ const AllBooks = () => {
   }, []);
   return(
     <>
+    <section id="all-books">
    { 
     books.map((individualBook) => {
       return <section onClick = {() => navigate(`/books/${individualBook.id}`) } key={individualBook.id}>
@@ -23,6 +24,7 @@ const AllBooks = () => {
       </section>
     })
   }
+  </section>
     </>
    
   )

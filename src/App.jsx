@@ -12,8 +12,8 @@ const App = () => {
   return (
     <>
     <nav>
-      <Link to = '/'>Home</Link>
-      <Link to = '/books'>AllBooks</Link>
+      <Link id="nav-link-1" to = '/'>Home</Link>
+      <Link id="nav-link-2" to = '/books'>AllBooks</Link>
     </nav>
   
     <h1>Book Buddy</h1>
