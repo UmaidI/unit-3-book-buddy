@@ -31,7 +31,7 @@ const SingleBook = () => {
     height="250" width= "250" />
     <p>{selectedProduct.description}</p>
 
-    <button>Checkout!</button>
+    
     <Link to= '/books'>Back to all books!</Link>
      
      
